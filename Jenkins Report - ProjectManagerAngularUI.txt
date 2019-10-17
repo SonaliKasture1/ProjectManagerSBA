@@ -1,0 +1,22 @@
+Started by user admin
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\ProjectManagerAngularUI
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/SonaliKasture1/ProjectManagerSBA.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\ProjectManagerAngularUI # timeout=10
+Fetching upstream changes from https://github.com/SonaliKasture1/ProjectManagerSBA.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/SonaliKasture1/ProjectManagerSBA.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/SonaliKasture1/ProjectManagerSBA.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/SonaliKasture1/ProjectManagerSBA.git # timeout=10
+Fetching upstream changes from https://github.com/SonaliKasture1/ProjectManagerSBA.git
+ > git.exe fetch --tags --progress -- https://github.com/SonaliKasture1/ProjectManagerSBA.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 7083f7fcf72b04237982db3b664015eb80056cef (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 7083f7fcf72b04237982db3b664015eb80056cef
+Commit message: "Added code for Project Manager Final SBA Module"
+First time build. Skipping changelog.
+Finished: SUCCESS
